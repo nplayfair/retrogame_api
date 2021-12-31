@@ -1,0 +1,19 @@
+{
+  "name": "retrogame_api",
+  "version": "0.0.1",
+  "description": "retro game info api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nplayfair/retrogame_api.git"
+  },
+  "author": "nplayfair",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nplayfair/retrogame_api/issues"
+  },
+  "homepage": "https://github.com/nplayfair/retrogame_api#readme"
+}

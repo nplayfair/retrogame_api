@@ -1,0 +1,31 @@
+# Types
+
+type Game {
+  title: String!
+  platform: Platform!
+  genre: Genre
+  year: Int
+}
+
+type Platform {
+  name: String!
+  company: Company!
+}
+
+type Company {
+  name: String!
+  platforms: [Platform]
+}
+
+type Genre {
+  name: String!
+}
+
+# Queries
+
+type Query {
+  platforms: [Platform]
+  companies: [Company]
+  genres: [Genre]
+  games: [Game]
+}

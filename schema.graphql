@@ -24,8 +24,5 @@ type Genre {
 # Queries
 
 type Query {
-  platforms: [Platform]
-  companies: [Company]
-  genres: [Genre]
-  games: [Game]
+  platforms: String
 }
